@@ -1,5 +1,11 @@
 
 //Ejecutar servidor para proyecto Angular
 ng serve
+
+//Para crear nueva app en Angular
+sudo ng new mi-nueva-app
+
 //Para crear componente "home" en Angular desde CLI
 ng g c components/home --skipTests -is
+
+
