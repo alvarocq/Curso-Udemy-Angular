@@ -11,7 +11,6 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    SearchComponent
     SearchComponent,
     ArtistaComponent,
     NavbarComponent
