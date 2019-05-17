@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 
 
 @Component({
@@ -9,19 +8,10 @@ import { HttpClient } from '@angular/common/http';
 })
 export class HomeComponent implements OnInit {
 
-  paises: any[] =[];
 
-  constructor( private http: HttpClient) {
+  constructor() {
 
-    console.log('Constructor del Home hecho');
-    this.http.get('https://restcountries.eu/rest/v2/lang/es')
-        .subscribe( (resp: any) => {
-          this.paises = resp;
-          console.log(resp);
-
-        });
-
-   }
+  }
 
   ngOnInit() {
   }
