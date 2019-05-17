@@ -1,0 +1,5 @@
+
+//Ejecutar servidor para proyecto Angular
+ng serve
+//Para crear componente "home" en Angular desde CLI
+ng g c components/home --skipTests -is
